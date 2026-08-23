@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Gear Affixes v0.0.1-beta",
+		"description": "Ratz Studios",
+		"min_engine_version": [1, 26, 10],
+		"uuid": "3e826487-186a-404a-890e-17781c1bb1c0",
+		"version": [1, 0, 0]
+	},
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.9.0"
+		}
+	],
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "447af4da-d336-44d9-bf70-0d59a1e29f1e",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "Javascript",
+			"entry": "scripts/main.js",
+			"uuid": "cd80e145-eeb0-4a79-a979-66c27e25f4d3",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"authors": ["Ratz Studios"],
+		"license": "CC-4.0",
+		"product_type": "addon"
+	}
+}
