@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Gear Affixes v0.0.1-beta",
+		"name": "Gear Affixes v1.0.0-beta",
 		"description": "Ratz Studios",
 		"min_engine_version": [1, 26, 10],
 		"uuid": "3e826487-186a-404a-890e-17781c1bb1c0",
