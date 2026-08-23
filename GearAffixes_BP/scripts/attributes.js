@@ -11,7 +11,7 @@ export const ATTRIBUTE_COUNT_BY_RARITY = {
 	rare: { min: 1, max: 1 },
 	epic: { min: 1, max: 2 },
 	legend: { min: 2, max: 3 },
-	ultimate: { min: 2, max: 3 },
+	mythic: { min: 2, max: 3 },
 };
 
 export const ITEM_ATTRIBUTES = {
