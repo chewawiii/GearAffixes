@@ -1,8 +1,10 @@
+export const RARITY = ["common", "rare", "epic", "legend", "mythic"];
+
 export const RARITY_WEIGHTS_COLORS = {
-	common: { weight: 50, color: "§7" },
-	rare: { weight: 30, color: "§b" },
-	epic: { weight: 13, color: "§d" },
-	legend: { weight: 6, color: "§6" },
+	common: { weight: 60, color: "§7" },
+	rare: { weight: 25, color: "§b" },
+	epic: { weight: 10, color: "§d" },
+	legend: { weight: 4, color: "§6" },
 	mythic: { weight: 1, color: "§c" },
 };
 
@@ -50,9 +52,9 @@ export const ITEM_ATTRIBUTES = {
 
 export const ATTRIBUTES_RANGES = {
 	dodge_chance: {
-		/* cap por item: 7.5% | cap por set: 30% */
-		legend: { min: 0.01, max: 0.04 },
-		mythic: { min: 0.045, max: 0.075 },
+		/* cap por item: 7% | cap por set: 30% */
+		legend: { min: 0.01, max: 0.03 },
+		mythic: { min: 0.04, max: 0.07 },
 	},
 	protection_pierce: {
 		/* cap por item: -10% | cap por set: -40% */
